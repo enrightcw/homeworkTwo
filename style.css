@@ -1,5 +1,17 @@
-.nav-link {
-    float: right;
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        float:none;
+        display:inline-block;
+        vertical-align: top;
+        
+    }
 }
 
 body {
@@ -9,21 +21,35 @@ body {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    
     font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 30px;
+}
+
+
+main{
+    margin-top: 20px;
+    border-width: 3px;
+    border-color: black;
+    background-color: white;
+    padding: 20px;   
+    
 }
 
 h1 {
-    font-size: 28px;
-    font-weight: medium;
+    color: #3a7fe6;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: lightgrey;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
 }
 
-h2 {
-    font-size: 24px;
-    font-weight: medium;
+#bio-image {
+    border-radius: 15px 50px;
+    height: 150px;
+    width: 250px;
 }
 
-h3 {
-    font-size: 20px;
-    font-weight: medium;
-}
