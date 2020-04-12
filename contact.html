@@ -22,7 +22,7 @@
   <body>
 
           <!-- Nav Bar here, no search -->
-        <nav class="navbar navbar-fixed-top navbar-expand-md navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
           
             <div class="mx-auto order-0">
               <a id="my-name" class="navbar-brand mx-auto" href="#"><strong>Chris Enright </strong></a>
@@ -50,19 +50,27 @@
         <div class="container" >
             
             <main class = "row">
-                <div class="col-md-6 ">
+                <div class="col-md-8 ">
                     <h1>Contact Info</h1> 
 
-                    <h3>Name</h3>
-                    <!-- input box for name-->
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
 
-                    <h3>Email</h3>
-                    <!-- input box for email-->
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
 
-                    <h3>Message</h3>
-                    <!-- Large text box for message-->
-
-                    <!-- Submit button here, left aligned -->
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div> 
 
                 </div>
 

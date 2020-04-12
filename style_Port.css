@@ -11,6 +11,10 @@
         
 }
 
+.card-img-top{
+    height: 250px;
+}
+
 p {
     font-size: 22px;
 }
