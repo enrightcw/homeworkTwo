@@ -1,0 +1,31 @@
+.card-text {
+    text-align: center;
+    color: white;
+    background-color: #2a62b5;    
+    
+}
+
+.card {
+    margin: 10px;
+    float: left;
+        
+}
+
+p {
+    font-size: 22px;
+}
+
+@media (max-width: 800px) {
+    nav {
+        float:none;
+        vertical-align: top;
+        text-align: center;
+                
+    }
+
+    main {
+        margin: auto;
+        float:none;
+   
+    }
+}
